@@ -35,6 +35,12 @@ public class Player {
         return (this.t_playerCard.size());
     }
 
+
+    public List<Card> getT_playerCard() {
+        return (this.t_playerCard);
+    }
+
+
     /*
     * @return player's ID
     */
@@ -58,7 +64,6 @@ public class Player {
 
     public void TakeCard(Card card) {
         this.t_playerCard.add(card);
-       //  System.out.println("C to : " + this.t_id);
     }
 
 

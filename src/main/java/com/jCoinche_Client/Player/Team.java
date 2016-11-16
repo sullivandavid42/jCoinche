@@ -21,7 +21,21 @@ public class Team {
         t_playerlist.add(p1);
         Player p2 = new Player(idp2, team, false);
         t_playerlist.add(p2);
+    }
 
 
+    /*
+    * Affiche le decks des deux joueurs de la même team
+    */
+
+    public void getTeamDecks() {
+        System.out.println("Player " + this.t_playerlist.get(0).getID() + ": ");
+        for (int i = 0; i < this.t_playerlist.get(0).getT_playerCard().size(); i++) {
+            System.out.println(this.t_playerlist.get(0).getT_playerCard().get(i).getCardInfo());
+        }
+        System.out.println("\nPlayer " + this.t_playerlist.get(1).getID() + ": ");
+        for (int i = 0; i < this.t_playerlist.get(1).getT_playerCard().size(); i++) {
+            System.out.println(this.t_playerlist.get(1).getT_playerCard().get(i).getCardInfo());
+        }
     }
 }

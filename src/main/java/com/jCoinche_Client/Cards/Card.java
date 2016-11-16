@@ -15,7 +15,6 @@ public  class Card {
     private t_Color color;
 
 
-
     public Card(t_Color color, t_Rang rang) {
         this.color = color;
         this.rang = rang;
