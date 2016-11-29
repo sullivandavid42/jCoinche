@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/jCoincheClient.iml" filepath="$PROJECT_DIR$/.idea/jCoincheClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JCoicheclient/JCoicheclient.iml" filepath="$PROJECT_DIR$/JCoicheclient/JCoicheclient.iml" />
     </modules>
   </component>
 </project>

@@ -22,10 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="JCoicheclient" />
         <module name="jCoinche" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="JCoicheclient" target="1.5" />
       <module name="jCoinche" target="1.5" />
     </bytecodeTargetLevel>
   </component>
